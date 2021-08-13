@@ -1,0 +1,1 @@
+{"uuid": "d469c87b-cead-41d7-8bf1-c5f23a3a615c", "gpu_support": false, "name": "R", "language": "r", "base_image": "orchest/base-kernel-r"}

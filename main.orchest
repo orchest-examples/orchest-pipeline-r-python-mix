@@ -1,0 +1,95 @@
+{
+    "name": "Main",
+    "parameters": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "42108178-7fbc-499f-ab45-9affc7ae332e": {
+            "environment": "a6e0082d-6e63-49f9-b922-5c5a015fdbc5",
+            "file_path": "python-code.ipynb",
+            "incoming_connections": [
+                "4396a026-fa3c-40f2-8f58-ab8cdf62608c"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    442.5,
+                    180.5
+                ]
+            },
+            "parameters": {},
+            "title": "Pyton receive",
+            "uuid": "42108178-7fbc-499f-ab45-9affc7ae332e"
+        },
+        "4396a026-fa3c-40f2-8f58-ab8cdf62608c": {
+            "environment": "d469c87b-cead-41d7-8bf1-c5f23a3a615c",
+            "file_path": "r-code.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "R",
+                "name": "r"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    128.5,
+                    246.5
+                ]
+            },
+            "parameters": {
+                "numeric": 0.01,
+                "test_param": true
+            },
+            "title": "R mixed with Python",
+            "uuid": "4396a026-fa3c-40f2-8f58-ab8cdf62608c"
+        },
+        "4c271e4f-3220-441c-944c-4bf37ff09390": {
+            "environment": "d469c87b-cead-41d7-8bf1-c5f23a3a615c",
+            "file_path": "r-notebook-receive-data.ipynb",
+            "incoming_connections": [
+                "4396a026-fa3c-40f2-8f58-ab8cdf62608c"
+            ],
+            "kernel": {
+                "display_name": "R",
+                "name": "r"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    444.5,
+                    318.5
+                ]
+            },
+            "parameters": {},
+            "title": "R notebook receive data",
+            "uuid": "4c271e4f-3220-441c-944c-4bf37ff09390"
+        },
+        "a0de4679-4886-493b-9487-954cb58e95ae": {
+            "environment": "d469c87b-cead-41d7-8bf1-c5f23a3a615c",
+            "file_path": "r-read-data-from-file-manager.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "R",
+                "name": "r"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    124.5,
+                    458.5
+                ]
+            },
+            "parameters": {},
+            "title": "R read data from file manager",
+            "uuid": "a0de4679-4886-493b-9487-954cb58e95ae"
+        }
+    },
+    "uuid": "b84300ba-ac9f-49b1-b980-16803d9236c4",
+    "version": "1.0.0"
+}
